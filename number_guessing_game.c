@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int secret=30;
+    int secret=28;
     int guess;
     int attempts=0;
     printf("==== NUMBER GUESSING GAME ====\n");
@@ -26,4 +26,3 @@ int main()
     printf("Total attempts: %d\n", attempts);
     printf("Thank you for playing the Number Guessing Game!\n");
     return 0;
-}
